@@ -49,5 +49,7 @@ public class Program {
 		int chooseDel = sc.nextInt();
 		sellerDao.deleteById(chooseDel);
 		System.out.println("Delete completed");
+		
+		sc.close();
 	}
 }
